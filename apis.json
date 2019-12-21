@@ -8,8 +8,8 @@
         "content",
         "have api"
     ],
-    "created": "2019-12-19",
-    "modified": "2019-12-19",
+    "created": "2019-12-21",
+    "modified": "2019-12-21",
     "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/harpercollins-publishers\/master\/apis.json",
     "specificationVersion": "0.14",
     "apis": [
@@ -23,17 +23,17 @@
             "properties": [
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/harpercollins-publishers-openapi.json"
-                },
-                {
-                    "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/harpercollins-publishers-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/harpercollins-publishers\/master\/harpercollins-publishers-openapi.json"
                 }
             ]
         }
     ],
     "include": [],
     "x-common": [
+        {
+            "type": "APIs.json",
+            "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/apis.json"
+        },
         {
             "type": "Developers",
             "url": "http:\/\/developer.harpercollins.com\/"
